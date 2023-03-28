@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a461965b-b3a2-4cb8-9c71-08ac05292c76" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JAVA_2023.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/MyFirstProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/01. Getting Started/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/Getting Started Code Examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/__MACOSX/01. Getting Started/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/__MACOSX/01. Getting Started/src/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Getting Started Code Examples/__MACOSX/01. Getting Started/src/com/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/MyProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/out/production/MyProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NdJpGvI01ml5hUGW0ezOEzrv9b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Hank_Moody/Desktop/JAVA_2023/Arrays"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a461965b-b3a2-4cb8-9c71-08ac05292c76" name="Changes" comment="" />
+      <created>1679988206244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679988206244</updated>
+    </task>
+    <servers />
+  </component>
+</project>
