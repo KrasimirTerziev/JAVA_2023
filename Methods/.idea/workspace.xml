@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37f5acd2-8f13-463d-a549-e8208eccc089" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/telerikacademy/core/MethodParametersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/telerikacademy/core/MethodParametersDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/telerikacademy/core/MethodReturnTypesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/telerikacademy/core/MethodReturnTypesDemo.java" afterDir="false" />
+    </list>
+    <list id="d9c4cb87-c6e2-47e9-8721-f665f28e689f" name="Core demos review." comment="">
+      <change afterPath="$PROJECT_DIR$/../../01. Arrays/Demos/.idea/Demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/telerikacademy/core/DataTypesAndMethodsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/telerikacademy/core/DataTypesAndMethodsDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="ProjectId" id="1i8pv7FKI11qkUdG7MmfHxe5upy" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37f5acd2-8f13-463d-a549-e8208eccc089" name="Default Changelist" comment="" />
+      <created>1601299300897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601299300897</updated>
+      <workItem from="1601299301929" duration="654000" />
+    </task>
+    <task id="LOCAL-00001" summary="Core demos review.">
+      <created>1601299639529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601299639529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Core demos review." />
+    <option name="LAST_COMMIT_MESSAGE" value="Core demos review." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="106" key="CommitChangelistDialog2" timestamp="1601299639536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="519" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601299639536" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1601299311745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601299311745" />
+    <state x="667" y="224" width="585" height="592" key="find.popup" timestamp="1601299924060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="224" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601299924060" />
+    <state x="720" y="309" key="git4idea.ui.GitUnstashDialog" timestamp="1601299696904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="309" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601299696904" />
+  </component>
+</project>

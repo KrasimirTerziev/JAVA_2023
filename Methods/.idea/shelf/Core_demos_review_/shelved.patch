@@ -1,0 +1,108 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1601299312165)
++++ .idea/modules.xml	(date 1601299312165)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Demos.iml" filepath="$PROJECT_DIR$/.idea/Demos.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/Demos.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/Demos.iml	(date 1601299312147)
++++ .idea/Demos.iml	(date 1601299312147)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../../01. Arrays/Demos/.idea/Demos.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../../01. Arrays/Demos/.idea/Demos.iml	(date 1601299184091)
++++ ../../01. Arrays/Demos/.idea/Demos.iml	(date 1601299184091)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/com/telerikacademy/core/DataTypesAndMethodsDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.telerikacademy.core;\n\nimport java.util.Arrays;\n\npublic class DataTypesAndMethodsDemo {\n    public static void main(String[] args) {\n        int a = 1;\n        // when we pass a as argument a copy of a is created\n        increment(a);\n        System.out.println(a);\n\n        int[] arr = {1, 2, 3, 4, 5};\n        // when we pass arr as argument a copy of the reference is created\n        // the copy of the reference points to the same array as arr\n        update(arr);\n        System.out.println(Arrays.toString(arr));\n    }\n\n    static void increment(int x) {\n        // here we modify the copy of a thus we don't affect the value of a\n        x += 1;\n        System.out.println(x);\n    }\n\n    static void update(int[] array) {\n        for (int i = 0; i < array.length; i++) {\n            // here me modify the value of the same array that is pointed by arr\n            array[i] *= 10;\n        }\n\n        // here we modify the array reference to point to a new array\n        // thus we don't affect the value of arr\n        array = new int[]{1, 1, 1, 1, 1};\n        array[0] *= 10;\n\n        System.out.println(Arrays.toString(array));\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/telerikacademy/core/DataTypesAndMethodsDemo.java	(revision 2b1d66d006d2b1ba592c644a6c1d2374d51d883a)
++++ src/com/telerikacademy/core/DataTypesAndMethodsDemo.java	(date 1601299612576)
+@@ -4,32 +4,32 @@
+ 
+ public class DataTypesAndMethodsDemo {
+     public static void main(String[] args) {
+-        int a = 1;
+-        // when we pass a as argument a copy of a is created
+-        increment(a);
+-        System.out.println(a);
++        int z = 1;
++        // when we pass `z` as argument a copy of `z` is created
++        increment(z);
++        System.out.println(z);
+ 
+         int[] arr = {1, 2, 3, 4, 5};
+-        // when we pass arr as argument a copy of the reference is created
+-        // the copy of the reference points to the same array as arr
++        // when we pass `arr` as argument a copy of the reference is created
++        // the copy of the reference points to the same array as `arr`
+         update(arr);
+         System.out.println(Arrays.toString(arr));
+     }
+ 
+     static void increment(int x) {
+-        // here we modify the copy of a thus we don't affect the value of a
++        // here we modify the copy of `z` thus we don't affect the value of `z`
+         x += 1;
+         System.out.println(x);
+     }
+ 
+     static void update(int[] array) {
+         for (int i = 0; i < array.length; i++) {
+-            // here me modify the value of the same array that is pointed by arr
++            // here me modify the value of the same array that is pointed by `arr`
+             array[i] *= 10;
+         }
+ 
+         // here we modify the array reference to point to a new array
+-        // thus we don't affect the value of arr
++        // thus we don't affect the value of `arr`
+         array = new int[]{1, 1, 1, 1, 1};
+         array[0] *= 10;
+ 
