@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f5acd2-8f13-463d-a549-e8208eccc089" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/telerikacademy/core/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/telerikacademy/core/PrimeNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="d9c4cb87-c6e2-47e9-8721-f665f28e689f" name="Core demos review." comment="" />
