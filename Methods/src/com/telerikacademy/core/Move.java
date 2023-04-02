@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Move {
     public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int start = Integer.parseInt(scanner.nextLine());
         String secondLine = scanner.nextLine();
         String[] stringArr = secondLine.split(",");
@@ -50,50 +50,7 @@ public class Move {
         }
         System.out.println("Forward: " + forward);
         System.out.println("Backwards: " + backwords);
-    }*/
-        Scanner scanner = new Scanner(System.in);
-
-        // Read starting point
-        int position = scanner.nextInt();
-
-        // Read array
-        String[] arrStr = scanner.next().split(",");
-        int[] arr = new int[arrStr.length];
-        for (int i = 0; i < arrStr.length; i++) {
-            arr[i] = Integer.parseInt(arrStr[i]);
-        }
-
-        int forwardSum = 0;
-        int backwardSum = 0;
-
-        // Read instructions
-        while (true) {
-            String line = scanner.nextLine();
-            if (line.equals("exit")) {
-                break;
-            }
-            String[] parts = line.split(" ");
-            int steps = Integer.parseInt(parts[0]);
-            String direction = parts[1];
-            int size = Integer.parseInt(parts[2]);
-
-            // Calculate sums
-            if (direction.equals("forward")) {
-                for (int i = 1; i <= steps; i++) {
-                    position = (position + size) % arr.length;
-                    forwardSum += arr[position];
-                }
-            } else if (direction.equals("backwards")) {
-                for (int i = 1; i <= steps; i++) {
-                    position = (position - size + arr.length) % arr.length;
-                    backwardSum += arr[position];
-                }
-            }
-        }
-
-        // Print results
-        System.out.println("Forward: " + forwardSum);
-        System.out.println("Backwards: " + backwardSum);
     }
 }
+
 
