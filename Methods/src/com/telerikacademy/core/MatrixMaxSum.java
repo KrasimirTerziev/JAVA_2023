@@ -8,12 +8,22 @@ public class MatrixMaxSum {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        ArrayList<String> input = new ArrayList<>();
         int[][] arr = new int[n][];
 
         for(int i = 0; i < n; i++){
-            input.add(sc.nextLine());
+           String line = sc.nextLine();
+           String[] nums = line.split(" ");
+           arr[n] = new int[nums.length];
+           for(int j = 0; i < nums.length; i ++){
+               arr[n][i] = Integer.parseInt(nums[i]);
+           }
         }
-        
+
+        for(int row = 0; row < arr.length; row ++){
+            for(int col = 0; col < arr[row].length; col ++){
+                System.out.println(arr[row][col]);
+            }
+        }
+
     }
 }
