@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Forum 1 - Fields/Forum 1 - Fields.iml" filepath="$PROJECT_DIR$/Forum 1 - Fields/Forum 1 - Fields.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forum 2 - Constructor/Forum 2 - Constructor.iml" filepath="$PROJECT_DIR$/Forum 2 - Constructor/Forum 2 - Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forum 3 - Overloaded Constructor/Forum 3 - Overloaded Constructor.iml" filepath="$PROJECT_DIR$/Forum 3 - Overloaded Constructor/Forum 3 - Overloaded Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forum 4 - Methods/Forum 4 - Methods.iml" filepath="$PROJECT_DIR$/Forum 4 - Methods/Forum 4 - Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forum 5 - Replies/Forum 5 - Replies.iml" filepath="$PROJECT_DIR$/Forum 5 - Replies/Forum 5 - Replies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Solution.iml" filepath="$PROJECT_DIR$/.idea/Solution.iml" />
+    </modules>
+  </component>
+</project>
