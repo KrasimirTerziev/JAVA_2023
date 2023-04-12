@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8fd15e3-c74a-466e-b5f1-3773c3d6dd5e" name="Changes" comment="" />
+    <list default="true" id="e8fd15e3-c74a-466e-b5f1-3773c3d6dd5e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/cosmetics/core/CosmeticsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/oop/cosmetics/core/CosmeticsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/oop/cosmetics/models/ShoppingCart.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hank_Moody/Desktop/JAVA-TASKS/02. OOP/Workshops/01. Cosmetics/Skeleton"
+    "last_opened_file_path": "C:/Users/Hank_Moody/Desktop/JAVA_Telerik_2023"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

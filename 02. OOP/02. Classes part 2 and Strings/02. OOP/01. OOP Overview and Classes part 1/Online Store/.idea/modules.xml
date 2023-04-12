@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01. With Class/01. With Class.iml" filepath="$PROJECT_DIR$/01. With Class/01. With Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02. With Constructor/02. With Constructor.iml" filepath="$PROJECT_DIR$/02. With Constructor/02. With Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03. With Methods/03. With Methods.iml" filepath="$PROJECT_DIR$/03. With Methods/03. With Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. With Products/04. With Products.iml" filepath="$PROJECT_DIR$/04. With Products/04. With Products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Online Store.iml" filepath="$PROJECT_DIR$/.idea/Online Store.iml" />
+    </modules>
+  </component>
+</project>
