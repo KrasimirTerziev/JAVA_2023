@@ -2,12 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Methods_In_Class_Activity" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/alpha-48-java" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/alpha-48-java-group-5" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/telerik_krasimir_terziev" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/telerik_krasimir_terziev/1.core/ArraysTasks" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/telerika48-2023" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/telerika48-2023/001.OOP - Basic/In-class activity/BoardR" vcs="Git" />
   </component>
 </project>
