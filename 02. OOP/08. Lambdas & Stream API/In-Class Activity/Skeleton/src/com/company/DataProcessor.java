@@ -15,14 +15,15 @@ public class DataProcessor {
                 .filter(s -> s.getAge() > targetAge)
                 .count();
     }
+
     /**
      * Hint: Is there a method on streams that asks the question "Do all elements match a given condition?"
      */
-
     public static boolean findIfAllCustomersAreAboveTargetAge(List<Customer> customers, int targetAge) {
         return customers.stream()
                 .allMatch(s -> s.getAge() > targetAge);
     }
+
     /**
      * Hint: Is there a method on streams that asks the question "Does any element match a given condition?"
      */
@@ -35,16 +36,8 @@ public class DataProcessor {
      * Hint: Is there a method on streams that asks the question "Do all element match a given condition?"
      */
     public static boolean findIfAllCustomersDislikeMovie(List<Customer> customers, Movie targetMovie) {
-        boolean result = true;
-
-        for (int i = 0; i < customers.size(); i++) {
-            if (!customers.get(i).getDislikedMovies().contains(targetMovie)) {
-                result = false;
-                break;
-            }
-        }
-
-        return result;
+        return customers.stream()
+                .anyMatch(s -> !s.getDislikedMovies().contains(targetMovie));
     }
 
     /**
