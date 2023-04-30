@@ -11,37 +11,18 @@ import java.util.List;
 public class DataProcessor {
 
     public static long countCustomersAboveTargetAge(List<Customer> customers, int targetAge) {
-//        int result = 0;
-//
-//        for (int i = 0; i < customers.size(); i++) {
-//            if (customers.get(i).getAge() > targetAge) {
-//                result++;
-//            }
-//        }
-//        return result;
-
         return customers.stream()
                 .filter(s -> s.getAge() > targetAge)
                 .count();
     }
-
     /**
      * Hint: Is there a method on streams that asks the question "Do all elements match a given condition?"
      */
 
     public static boolean findIfAllCustomersAreAboveTargetAge(List<Customer> customers, int targetAge) {
-        boolean result = true;
-
-        for (int i = 0; i < customers.size(); i++) {
-            if (customers.get(i).getAge() < targetAge) {
-                result = false;
-                break;
-            }
-        }
-
-        return result;
+        return customers.stream()
+                .allMatch(s -> s.getAge() > targetAge);
     }
-
     /**
      * Hint: Is there a method on streams that asks the question "Does any element match a given condition?"
      */
