@@ -55,20 +55,26 @@ public class DataProcessor {
      * is there a method that transforms one thing into another thing?
      */
     public static double findTheAverageAgeOfPeopleWhoDislikeMovies(List<Customer> customers, Movie targetMovie) {
-        List<Customer> customersWhoDislikeMovie = new ArrayList<>();
+//        List<Customer> customersWhoDislikeMovie = new ArrayList<>();
+//
+//        for (int i = 0; i < customers.size(); i++) {
+//            if (customers.get(i).getDislikedMovies().contains(targetMovie)) {
+//                customersWhoDislikeMovie.add(customers.get(i));
+//            }
+//        }
+//
+//        double sum = 0;
+//        for (int i = 0; i < customersWhoDislikeMovie.size(); i++) {
+//            sum += customersWhoDislikeMovie.get(i).getAge();
+//        }
+//
+//        return sum / customersWhoDislikeMovie.size();
 
-        for (int i = 0; i < customers.size(); i++) {
-            if (customers.get(i).getDislikedMovies().contains(targetMovie)) {
-                customersWhoDislikeMovie.add(customers.get(i));
-            }
-        }
+        return customers.stream()
+                .filter(s -> s.getDislikedMovies().contains(targetMovie))
+                .mapToDouble(Customer::getAge)
+                .average();
 
-        double sum = 0;
-        for (int i = 0; i < customersWhoDislikeMovie.size(); i++) {
-            sum += customersWhoDislikeMovie.get(i).getAge();
-        }
-
-        return sum / customersWhoDislikeMovie.size();
     }
 
     /**
