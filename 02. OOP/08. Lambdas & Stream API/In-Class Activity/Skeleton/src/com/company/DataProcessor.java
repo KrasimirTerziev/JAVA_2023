@@ -6,6 +6,7 @@ import com.company.models.Movie;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @SuppressWarnings("ForLoopReplaceableByForEach")
 public class DataProcessor {
@@ -21,7 +22,7 @@ public class DataProcessor {
      */
     public static boolean findIfAllCustomersAreAboveTargetAge(List<Customer> customers, int targetAge) {
         return customers.stream()
-                .allMatch(s -> s.getAge() > targetAge);
+                .allMatch(s -> s.getAge() >= targetAge);
     }
 
     /**
@@ -45,8 +46,7 @@ public class DataProcessor {
      */
     public static long findHowManyPeopleLikeMove(List<Customer> customers, Movie targetMovie) {
         return customers.stream()
-                .flatMap(customer -> customer.getDislikedMovies().stream())
-                .filter(s -> s.equals(targetMovie))
+                .filter(s -> s.getLikedMovies().contains(targetMovie))
                 .count();
     }
 
@@ -55,26 +55,16 @@ public class DataProcessor {
      * is there a method that transforms one thing into another thing?
      */
     public static double findTheAverageAgeOfPeopleWhoDislikeMovies(List<Customer> customers, Movie targetMovie) {
-//        List<Customer> customersWhoDislikeMovie = new ArrayList<>();
-//
-//        for (int i = 0; i < customers.size(); i++) {
-//            if (customers.get(i).getDislikedMovies().contains(targetMovie)) {
-//                customersWhoDislikeMovie.add(customers.get(i));
-//            }
-//        }
-//
-//        double sum = 0;
-//        for (int i = 0; i < customersWhoDislikeMovie.size(); i++) {
-//            sum += customersWhoDislikeMovie.get(i).getAge();
-//        }
-//
-//        return sum / customersWhoDislikeMovie.size();
-
-        return customers.stream()
+        List<Customer> customersWhoDislikeMovie = customers.stream()
                 .filter(s -> s.getDislikedMovies().contains(targetMovie))
-                .mapToDouble(Customer::getAge)
-                .average();
+                .collect(Collectors.toList());
 
+        double result = customersWhoDislikeMovie.stream()
+                .mapToDouble(Customer::getAge)
+                .average()
+                .orElse(Double.NaN);
+
+        return result;
     }
 
     /**
@@ -82,13 +72,10 @@ public class DataProcessor {
      * streams from one type to another?
      */
     public static double findAverageAgeOfAllCustomers(List<Customer> customers) {
-        double sum = 0;
-
-        for (int i = 0; i < customers.size(); i++) {
-            sum += customers.get(i).getAge();
-        }
-
-        return sum / customers.size();
+        return customers.stream()
+                .mapToDouble(Customer::getAge)
+                .average()
+                .orElse(0.0);
     }
 
     /**
