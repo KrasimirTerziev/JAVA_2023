@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d273497f-07f3-4c06-a0fe-eb6d73ef7bf8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/JAVA-TASKS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/01. Arrays/01. Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/02. Methods/In-class activity/01. User System/Skeleton/Skeleton2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/02. Methods/In-class activity/01. User System/Solution/Solution3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/02. Methods/In-class activity/02. Game Of Life - Optional/Skeleton/Skeleton3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/02. Methods/In-class activity/02. Game Of Life - Optional/Solution/Solution1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01. Core/04. Hackaton (ArraysStringsUtils)/04. Hackaton (ArraysStringsUtils).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01. OOP Overview and Classes part 1/In-class activity/In-class activity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02. Classes part 2 and Strings/In-class activity/In-class activity1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03. Inheritance and Polymorphism/Demos/01. Inheritance/01. Inheritance1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03. Inheritance and Polymorphism/In-class activity/In-class activity4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03. Inheritance and Polymorphism/Online Store/02. Polymorphism/02. Polymorphism1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04. Abstract Classes and Interfaces/In-class activity/Abstraction/Abstraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04. Abstract Classes and Interfaces/In-class activity/Polymorphism/Polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04. Abstract Classes and Interfaces/Online Store/Online Store1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05. Collections and Generics/In-class activity/In-class activity3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../06. Exception Handling/In-class activity/In-class activity2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07. Unit Testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../08. Lambdas &amp; Stream API/Demos/01. Anonymous Classes/01. Anonymous Classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../08. Lambdas &amp; Stream API/Demos/02. Funtional Interfaces/02. Funtional Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../08. Lambdas &amp; Stream API/Demos/03. Lambdas/03. Lambdas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../08. Lambdas &amp; Stream API/Demos/04. Stream API/04. Stream API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/01. Cosmetics/Solution/Solution4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/02. Cosmetics/Skeleton/Skeleton1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/02. Cosmetics/Solution/Solution.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/03. Agency/Skeleton/Skeleton4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/03. Agency/Solution/Solution2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/04. CarDealership.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/VehicleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Skeleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/core/ProductRepositoryImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/core/ProductRepositoryImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/models/CategoryImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/models/CategoryImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/models/ProductImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/company/oop/cosmetics/tests/models/ProductImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/01. Cosmetics/Skeleton/Skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/01. Cosmetics/Skeleton/Skeleton.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/commands/ShowUsersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/commands/ShowUsersCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/CarImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/CarImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/CommentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/CommentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/MotorcycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/MotorcycleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/TruckImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/TruckImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/UserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Commentable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Commentable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Workshops/04. CarDealership/Skeleton/src/com/company/oop/dealership/models/contracts/Vehicle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2P0ocfi1rkr834ZKFCqfp1i9AAd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ProductRepositoryImplTests.constructor_Should_InitializeProducts">
+    <configuration name="CategoryImplTests.removeProduct_should_notRemoveProductFromList_when_productNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.oop.cosmetics.tests.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.oop.cosmetics.tests.models" />
+      <option name="MAIN_CLASS_NAME" value="com.company.oop.cosmetics.tests.models.CategoryImplTests" />
+      <option name="METHOD_NAME" value="removeProduct_should_notRemoveProductFromList_when_productNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductImplTests.constructor_Should_InitializeName_When_ArgumentsAreValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.oop.cosmetics.tests.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.oop.cosmetics.tests.models" />
+      <option name="MAIN_CLASS_NAME" value="com.company.oop.cosmetics.tests.models.ProductImplTests" />
+      <option name="METHOD_NAME" value="constructor_Should_InitializeName_When_ArgumentsAreValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductImplTests.constructor_Should_ThrowException_When_BrandIsShorterThanExpected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.oop.cosmetics.tests.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.oop.cosmetics.tests.models" />
+      <option name="MAIN_CLASS_NAME" value="com.company.oop.cosmetics.tests.models.ProductImplTests" />
+      <option name="METHOD_NAME" value="constructor_Should_ThrowException_When_BrandIsShorterThanExpected" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductImplTests.constructor_Should_ThrowException_When_PriceIsIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.oop.cosmetics.tests.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.oop.cosmetics.tests.models" />
+      <option name="MAIN_CLASS_NAME" value="com.company.oop.cosmetics.tests.models.ProductImplTests" />
+      <option name="METHOD_NAME" value="constructor_Should_ThrowException_When_PriceIsIncorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryImplTests.constructor_Should_InitializeProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Skeleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.oop.cosmetics.tests.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.oop.cosmetics.tests.core" />
+      <option name="MAIN_CLASS_NAME" value="com.company.oop.cosmetics.tests.core.ProductRepositoryImplTests" />
+      <option name="METHOD_NAME" value="constructor_Should_InitializeProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductRepositoryImplTests.constructor_Should_InitializeProducts" />
+        <item itemvalue="JUnit.ProductImplTests.constructor_Should_ThrowException_When_PriceIsIncorrect" />
+        <item itemvalue="JUnit.ProductImplTests.constructor_Should_ThrowException_When_BrandIsShorterThanExpected" />
+        <item itemvalue="JUnit.ProductImplTests.constructor_Should_InitializeName_When_ArgumentsAreValid" />
+        <item itemvalue="JUnit.CategoryImplTests.removeProduct_should_notRemoveProductFromList_when_productNotExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d273497f-07f3-4c06-a0fe-eb6d73ef7bf8" name="Changes" comment="" />
+      <created>1682603443030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682603443030</updated>
+    </task>
+    <servers />
+  </component>
+</project>
