@@ -98,21 +98,18 @@ public class DataProcessor {
         }
 
         return result;
+//              return customers.stream()
+//                .filter(s -> s.getAge() > targetAge)
+//                .filter(s -> s.getLikedMovies())
     }
 
     /**
      * Hint: Eliminate all customers with age below the targetAge.
      */
     public static List<Customer> findAllCustomersUnderTargetAge(List<Customer> customers, int targetAge) {
-        List<Customer> customersUnderTargetAge = new ArrayList<>();
-
-        for (int i = 0; i < customers.size(); i++) {
-            if (customers.get(i).getAge() < targetAge) {
-                customersUnderTargetAge.add(customers.get(i));
-            }
-        }
-
-        return customersUnderTargetAge;
+        return customers.stream()
+                .filter(s -> s.getAge() >= targetAge)
+                .collect(Collectors.toList());
     }
 
     /**
@@ -128,6 +125,8 @@ public class DataProcessor {
         }
 
         return withLongestName;
+//                  return customers.stream()
+//                    .reduce(null, (total, element) -> total.getName().length() > element.getName().length() ? total : element);
     }
 
     /**
@@ -158,3 +157,4 @@ public class DataProcessor {
         return result;
     }
 }
+

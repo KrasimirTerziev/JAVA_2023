@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/07. Unit Testing.iml" filepath="$PROJECT_DIR$/.idea/07. Unit Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demos/Demos.iml" filepath="$PROJECT_DIR$/Demos/Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/In-class activity/In-class activity.iml" filepath="$PROJECT_DIR$/In-class activity/In-class activity.iml" />
+    </modules>
+  </component>
+</project>
