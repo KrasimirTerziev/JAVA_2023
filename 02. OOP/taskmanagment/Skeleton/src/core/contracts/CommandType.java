@@ -1,0 +1,14 @@
+package core.contracts;
+
+
+public enum CommandType {
+    CREATETEAM,
+    SHOWTEAMS,
+    CREATEPERSON,
+    ADDPERSONTOTEAM,
+    SHOWALLTEAMMEMBERS,
+    ADDCOMMENT,
+    REMOVECOMMENT,
+    SHOWUSERS,
+    SHOWVEHICLES;
+}
