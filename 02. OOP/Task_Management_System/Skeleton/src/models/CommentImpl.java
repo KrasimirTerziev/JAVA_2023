@@ -38,4 +38,13 @@ public class CommentImpl implements Comments {
     public void setContent(String content) {
         this.content = content;
     }
+    public String getAsString(){
+        StringBuilder sb=new StringBuilder();
+        sb.append("Author: " +author + "\n");
+        sb.append("Content: " +content + "\n");
+        return sb.toString();
+    }
+    public String toString(){
+        return getAsString();
+    }
 }

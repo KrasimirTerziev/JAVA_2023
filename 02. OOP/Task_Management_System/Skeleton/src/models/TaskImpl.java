@@ -18,7 +18,6 @@ public class TaskImpl implements models.interfaces.Tasks {
     private static final int MAX_DESCR_SYMBOLS = 500;
     private static final String NOT_IN_RANGE_DESCR = "Description is a string between 10 and 500 symbols.";
     private static final String INVALID_TASK_TYPE = "Task type must be bug, feedback or story";
-    private static int nextId = 1; // initialize the next ID to 1
     private int id;
     private String taskTitle;
     private String description;
@@ -32,7 +31,7 @@ public class TaskImpl implements models.interfaces.Tasks {
 
     public TaskImpl(int id, String taskTitle, String description, List<Comments> comments,
                     List<String> history) {
-        this.id = nextId++;
+        this.id = id;
         setTaskTitle(taskTitle);
         setDescription(description);
         this.comments = new ArrayList<>();
@@ -64,7 +63,7 @@ public class TaskImpl implements models.interfaces.Tasks {
     }
 
     public List<Comments> getComments() {
-        return new ArrayList<>(comments);
+        return comments;
     }
 
     public List<String> getHistory() {
@@ -103,6 +102,4 @@ public class TaskImpl implements models.interfaces.Tasks {
             throw new IllegalArgumentException(INVALID_TASK_TYPE);
         }
     }
-
-
 }

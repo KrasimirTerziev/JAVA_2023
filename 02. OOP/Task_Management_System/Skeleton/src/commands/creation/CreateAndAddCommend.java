@@ -11,8 +11,7 @@ import java.util.List;
 
 public class CreateAndAddCommend implements Command {
     public static final int EXPECTED_NUMBER_OF_ARGUMENTS = 3;
-    private static final String CREATED_MESSAGE = "New comment was created.\n \"" +
-            "Comment  was added to  to task \"%s\"";
+    private static final String CREATED_MESSAGE =  "Comment  was added to  to task \"%s\"";
     private final TaskManagmentRepository taskManagmentRepository;
 
 
@@ -31,6 +30,6 @@ public class CreateAndAddCommend implements Command {
 
         taskManagmentRepository.addComment(taskToAddComment, comment);
 
-        return String.format(CREATED_MESSAGE,taskToAddComment);
+        return String.format(CREATED_MESSAGE,taskName);
     }
 }

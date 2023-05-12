@@ -1,5 +1,8 @@
 package core.contracts;
 
+import models.enums.Priority;
+import models.enums.Severity;
+import models.enums.Status;
 import models.interfaces.*;
 
 import java.util.List;
@@ -30,6 +33,12 @@ public interface TaskManagmentRepository {
 
     Members findMemberByName(String memberName);
 
-    void assignTaskToPerson(Members taskName, Tasks memberName);
+    Teams findTeamByMemberName(String memberName);
+    List<Boards> findBoardsByMemberName(String memberName);
+
+   void  assignTaskToPerson(Members member, Tasks task, Boards board);
     void unassignTaskFromMember(Tasks task);
+
+    Bugs createBug(String taskTitle, String description, List<Comments> comments, List<String> history, Priority bugPriority,
+                   Severity severity, Status bugStatus, Members bugAssignee);
 }

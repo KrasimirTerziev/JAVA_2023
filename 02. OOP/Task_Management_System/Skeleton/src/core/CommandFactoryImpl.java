@@ -37,10 +37,16 @@ public class CommandFactoryImpl implements CommandFactory {
                 return new ShowAllTeamBoards(taskManagmentRepositoryImpl);
             case SHOWBOARDACTIVITY:
                 return new ShowBoardActivity(taskManagmentRepositoryImpl);
+            case SHOWTEAMACTIVITY:
+                return new ShowTeamActivity(taskManagmentRepositoryImpl);
             case ASSIGNED:
                 return new AsignTaskCommand(taskManagmentRepositoryImpl);
             case UNASSIGNED:
                 return new UnassignedTaskCommand(taskManagmentRepositoryImpl);
+            case CREATEBUG:
+                return new CreateBug(taskManagmentRepositoryImpl);
+            case SHOWTASKSBOARD:
+                return new ShowAllTasks(taskManagmentRepositoryImpl);
             default:
                 throw new IllegalArgumentException();
         }

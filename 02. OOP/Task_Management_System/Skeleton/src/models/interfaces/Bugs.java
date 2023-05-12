@@ -6,10 +6,12 @@ import models.enums.Status;
 
 public interface Bugs {
     Priority getPriority();
+
+    String GetBugTitle();
     Severity getSeverity();
     Status getStatus();
 
-    Members getAssignee();
+    String getAssignee();
 
 
 }

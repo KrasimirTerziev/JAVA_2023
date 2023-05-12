@@ -10,6 +10,7 @@ import models.interfaces.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
     public static final String TEAM_ALREADY_EXISTS = "Team with name \"%s\" already exists! Choose different name!";
@@ -28,6 +29,8 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
     private List<Comments> comments;
 
     private List<String> activityhistory;
+
+    private int nextId = 0;
 
 
     //TODO constructor
@@ -118,6 +121,25 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
                 .orElseThrow(() -> new IllegalArgumentException(String.format(NO_SUCH_TEAM, teamToFind)));
     }
 
+    public Teams findTeamByMemberName(String memberName) {
+        return teams.stream()
+                .filter(team -> team.getMembers().stream()
+                        .anyMatch(member -> member.getMemberName().equalsIgnoreCase(memberName)))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException(String.format("No team found for member \"%s\"", memberName)));
+    }
+
+
+    public List<Boards> findBoardsByMemberName(String memberName) {
+        return teams.stream()
+                .filter(team -> team.getMembers().stream().anyMatch(member -> member.getMemberName().equals(memberName)))
+                .flatMap(team -> team.getBoards().stream())
+                .collect(Collectors.toList());
+    }
+
+
+
+
     public Boards findBoardbyName(String boardToFind) {
         return boards
                 .stream()
@@ -133,6 +155,8 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException(String.format(NO_SUCH_TASK, taskToFind)));
     }
+
+
    /* public void createBoardBug(int id, String taskTitle, String description, List<Comments> comments, List<String> history, Priority bugPriority,
                                Severity severity, Status bugStatus, Members bugAssignee) {
         BugImpl bug = createBug(id, taskTitle, description, comments, history, bugPriority, severity, bugStatus, bugAssignee);
@@ -151,10 +175,14 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
     }
 */
 
-    public BugImpl createBug(int id, String taskTitle, String description, List<Comments> comments, List<String> history, Priority bugPriority,
-                             Severity severity, Status bugStatus, Members bugAssignee) {
-        return new BugImpl(id, taskTitle, description, comments, history, bugPriority, severity, bugStatus, bugAssignee);
+    public Bugs createBug(String taskTitle, String description, List<Comments> comments, List<String> history, Priority bugPriority,
+                          Severity severity, Status bugStatus, Members bugAssignee) {
+        Bugs bug = new BugImpl(++nextId, taskTitle, description, comments, history, bugPriority, severity, bugStatus, bugAssignee);
+        tasks.add((Tasks) bug);
+        return bug;
     }
+
+
 
     public StoryImpl createStory(int id, String taskTitle, String description, List<Comments> comments, List<String> history, Priority storyPriority,
                                  Size size, Status storyStatus, Members storyAssignee) {
@@ -175,8 +203,9 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
     }
 
     //Members
-    public void assignTaskToPerson(Members member, Tasks task) {
+    public void assignTaskToPerson(Members member, Tasks task, Boards board) {
         task.setAssignedMember(member);
+        board.getTasks().add((TaskImpl) task);
     }
 
     public void unassignTaskFromMember(Tasks task) {
@@ -184,6 +213,6 @@ public class TaskManagmentRepositoryImpl implements TaskManagmentRepository {
     }
 
     public List<Tasks> getTasks() {
-        return new ArrayList<>(tasks);
+        return tasks;
     }
 }
