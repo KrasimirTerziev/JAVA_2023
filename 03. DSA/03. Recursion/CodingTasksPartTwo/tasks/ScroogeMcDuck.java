@@ -12,11 +12,12 @@ public class ScroogeMcDuck {
         int cols = Integer.parseInt(size[1]);
 
         int[][] matrix = new int[rows][cols];
+
         for (int i = 0; i < rows; i++) {
+            input = scanner.nextLine();
+            String[] strArr =input.split(" ");
             for (int j = 0; j < cols; j++) {
-                String inputElement = scanner.next();
-                int element = Integer.parseInt(inputElement);
-                matrix[i][j] = element;
+                matrix[i][j] = Integer.parseInt(strArr[j]);
             }
         }
         int totalCoins = collectCoins(matrix);
@@ -59,5 +60,14 @@ public class ScroogeMcDuck {
             }
         }
         return totalCoins;
+    }
+    public static void print2DArray(int[][] array, int height, int width) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                System.out.print(array[i][j]);
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 }
